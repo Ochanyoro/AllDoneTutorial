@@ -20,6 +20,8 @@ struct SignupView: View {
     //元の画面に戻れる
     @Environment(\.presentationMode) var mode
     
+    @EnvironmentObject var viewModel: AuthViewModel
+    
     
     var body: some View {
         ZStack {
@@ -41,7 +43,7 @@ struct SignupView: View {
                 .padding(.horizontal, 32)
                 
                 Button {
-                    
+                    viewModel.register(withEamil: email, password: password, firstName: firstName, lastName: lastName)
                 } label: {
                     AuthenticateButtonView(text: "Sign Up")
                         .padding()
