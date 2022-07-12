@@ -15,6 +15,8 @@
 		8200901A287D4B8400EF9F26 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82009019287D4B8400EF9F26 /* SignupView.swift */; };
 		8200901C287D4BE500EF9F26 /* BackgroundGridientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200901B287D4BE500EF9F26 /* BackgroundGridientView.swift */; };
 		8200901E287D51E900EF9F26 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200901D287D51E900EF9F26 /* LogoView.swift */; };
+		82009020287D549700EF9F26 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200901F287D549700EF9F26 /* CustomTextField.swift */; };
+		82009023287D574F00EF9F26 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82009022287D574F00EF9F26 /* EmailTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		82009019287D4B8400EF9F26 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		8200901B287D4BE500EF9F26 /* BackgroundGridientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGridientView.swift; sourceTree = "<group>"; };
 		8200901D287D51E900EF9F26 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		8200901F287D549700EF9F26 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		82009022287D574F00EF9F26 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 		82009017287D4B3900EF9F26 /* Utitls */ = {
 			isa = PBXGroup;
 			children = (
+				82009021287D570C00EF9F26 /* TextFields */,
 				8200901B287D4BE500EF9F26 /* BackgroundGridientView.swift */,
 				8200901D287D51E900EF9F26 /* LogoView.swift */,
 			);
@@ -117,6 +122,15 @@
 			children = (
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		82009021287D570C00EF9F26 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				8200901F287D549700EF9F26 /* CustomTextField.swift */,
+				82009022287D574F00EF9F26 /* EmailTextField.swift */,
+			);
+			path = TextFields;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +203,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82009023287D574F00EF9F26 /* EmailTextField.swift in Sources */,
+				82009020287D549700EF9F26 /* CustomTextField.swift in Sources */,
 				8200901A287D4B8400EF9F26 /* SignupView.swift in Sources */,
 				8200901E287D51E900EF9F26 /* LogoView.swift in Sources */,
 				82009016287D4B2700EF9F26 /* LoginView.swift in Sources */,
