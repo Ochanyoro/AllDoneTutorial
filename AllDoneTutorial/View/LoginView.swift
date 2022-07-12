@@ -26,13 +26,35 @@ struct LoginView: View {
                     EmailTextField(text: $email)
                        
                     PasswordSecureField(text: $password, placehodler: "Password")
-                    
-                    
-                       
-                    
-                    
                 }
                 .padding(.horizontal, 32)
+                
+            
+                HStack {
+                    Spacer()
+                    Button {
+                        
+                    } label: {
+                        Text("Forgot Password")
+                            .foregroundColor(.white)
+                            .font(.system(size: 13, weight: .semibold))
+                            .padding(.top)
+                            .padding(.trailing,28)
+                    }
+                    //Spacer()
+                }
+                
+                
+                Button {
+                    
+                } label: {
+                    AuthenticateButtonView(text: "Sign In")
+                        .padding()
+                }
+
+                
+                Spacer()
+
             }
         }
         
