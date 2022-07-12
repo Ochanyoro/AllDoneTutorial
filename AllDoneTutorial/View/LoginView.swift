@@ -14,50 +14,67 @@ struct LoginView: View {
     
     var body: some View {
         
-        ZStack {
-            BackgroundGridientView()
-            
-            VStack {
-                LogoView()
-                    .padding(.bottom, 25)
-                  
-                    
-                VStack(spacing: 20) {
-                    EmailTextField(text: $email)
-                       
-                    PasswordSecureField(text: $password, placehodler: "Password")
-                }
-                .padding(.horizontal, 32)
+        NavigationView {
+            ZStack {
+                BackgroundGridientView()
                 
-            
-                HStack {
-                    Spacer()
+                VStack {
+                    LogoView()
+                        .padding(.bottom, 25)
+                      
+                        
+                    VStack(spacing: 20) {
+                        EmailTextField(text: $email)
+                           
+                        PasswordSecureField(text: $password, placehodler: "Password")
+                    }
+                    .padding(.horizontal, 32)
+                    
+                
+                    HStack {
+                        Spacer()
+                        Button {
+                            
+                        } label: {
+                            Text("Forgot Password")
+                                .foregroundColor(.white)
+                                .font(.system(size: 13, weight: .semibold))
+                                .padding(.top)
+                                .padding(.trailing,28)
+                        }
+                        //Spacer()
+                    }
+                    
+                    
                     Button {
                         
                     } label: {
-                        Text("Forgot Password")
-                            .foregroundColor(.white)
-                            .font(.system(size: 13, weight: .semibold))
-                            .padding(.top)
-                            .padding(.trailing,28)
+                        AuthenticateButtonView(text: "Sign In")
+                            .padding()
                     }
-                    //Spacer()
-                }
-                
-                
-                Button {
+
                     
-                } label: {
-                    AuthenticateButtonView(text: "Sign In")
-                        .padding()
+                    Spacer()
+                    
+                    NavigationLink(destination: SignupView()
+                        .navigationBarHidden(true),
+                        label: {
+                            HStack {
+                                Text("Don't have an account?")
+                                    .font(.system(size: 14))
+                                
+                                Text("Sign Up")
+                                    .font(.system(size: 14, weight: .semibold))
+                            }
+                        .foregroundColor(.white)
+                        }
+                    )
+                    .padding(.bottom, 16)
+                    
                 }
-
-                
-                Spacer()
-
+                .padding(.top, -44)
             }
         }
-        
     }
 }
 
