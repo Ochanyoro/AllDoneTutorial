@@ -6,9 +6,16 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct AllDoneTutorialApp: App {
+    
+    // firebaseを使う
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
