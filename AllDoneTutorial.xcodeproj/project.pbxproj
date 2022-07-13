@@ -38,6 +38,7 @@
 		8200904C287DDE7900EF9F26 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200904B287DDE7900EF9F26 /* MockData.swift */; };
 		8200904E287DE6E700EF9F26 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200904D287DE6E700EF9F26 /* AuthViewModel.swift */; };
 		8248C40C287DEEAF00CE9A6C /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248C40B287DEEAF00CE9A6C /* DashboardView.swift */; };
+		8248C410287E4E6400CE9A6C /* TODOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248C40F287E4E6400CE9A6C /* TODOViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		8200904B287DDE7900EF9F26 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		8200904D287DE6E700EF9F26 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		8248C40B287DEEAF00CE9A6C /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		8248C40F287E4E6400CE9A6C /* TODOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				8200904D287DE6E700EF9F26 /* AuthViewModel.swift */,
+				8248C40F287E4E6400CE9A6C /* TODOViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				82009041287DD5EE00EF9F26 /* Constants.swift in Sources */,
 				82009029287D5FBC00EF9F26 /* AuthenticateButtonView.swift in Sources */,
 				82009007287D3EA400EF9F26 /* ContentView.swift in Sources */,
+				8248C410287E4E6400CE9A6C /* TODOViewModel.swift in Sources */,
 				8200901C287D4BE500EF9F26 /* BackgroundGridientView.swift in Sources */,
 				82009025287D5BB300EF9F26 /* CustomSecureField.swift in Sources */,
 				82009005287D3EA400EF9F26 /* AllDoneTutorialApp.swift in Sources */,

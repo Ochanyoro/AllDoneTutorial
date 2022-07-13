@@ -13,7 +13,7 @@ struct TODO: Identifiable, Decodable {
     
     @DocumentID var id: String? = UUID().uuidString
     let ownerID: String
-    var titile: String
+    var title: String
     var description: String
     var TODOType: String
     var completed: Bool
