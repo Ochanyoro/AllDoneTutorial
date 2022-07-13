@@ -39,6 +39,7 @@
 		8200904E287DE6E700EF9F26 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200904D287DE6E700EF9F26 /* AuthViewModel.swift */; };
 		8248C40C287DEEAF00CE9A6C /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248C40B287DEEAF00CE9A6C /* DashboardView.swift */; };
 		8248C410287E4E6400CE9A6C /* TODOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248C40F287E4E6400CE9A6C /* TODOViewModel.swift */; };
+		8248C412287E9B9400CE9A6C /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248C411287E9B9400CE9A6C /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		8200904D287DE6E700EF9F26 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		8248C40B287DEEAF00CE9A6C /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		8248C40F287E4E6400CE9A6C /* TODOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOViewModel.swift; sourceTree = "<group>"; };
+		8248C411287E9B9400CE9A6C /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				8200903F287DD5C500EF9F26 /* Utils */,
 				82009014287D4A2900EF9F26 /* Model */,
 				82009012287D4A0F00EF9F26 /* View */,
+				8248C40B287DEEAF00CE9A6C /* DashboardView.swift */,
 				82009013287D4A1800EF9F26 /* ViewModel */,
 				82009004287D3EA400EF9F26 /* AllDoneTutorialApp.swift */,
 				82009006287D3EA400EF9F26 /* ContentView.swift */,
@@ -135,7 +138,6 @@
 				82009018287D4B4900EF9F26 /* Authentication */,
 				82009015287D4B2700EF9F26 /* LoginView.swift */,
 				82009019287D4B8400EF9F26 /* SignupView.swift */,
-				8248C40B287DEEAF00CE9A6C /* DashboardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,6 +169,7 @@
 				8200901B287D4BE500EF9F26 /* BackgroundGridientView.swift */,
 				8200901D287D51E900EF9F26 /* LogoView.swift */,
 				82009028287D5FBC00EF9F26 /* AuthenticateButtonView.swift */,
+				8248C411287E9B9400CE9A6C /* SearchBarView.swift */,
 			);
 			path = Utitls;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				82009048287DDBB300EF9F26 /* TODO.swift in Sources */,
 				8248C40C287DEEAF00CE9A6C /* DashboardView.swift in Sources */,
 				8200904E287DE6E700EF9F26 /* AuthViewModel.swift in Sources */,
+				8248C412287E9B9400CE9A6C /* SearchBarView.swift in Sources */,
 				8200901E287D51E900EF9F26 /* LogoView.swift in Sources */,
 				82009027287D5C7F00EF9F26 /* PasswordSecureField.swift in Sources */,
 				82009016287D4B2700EF9F26 /* LoginView.swift in Sources */,
