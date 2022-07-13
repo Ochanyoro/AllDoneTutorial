@@ -9,7 +9,7 @@ import Foundation
 
 enum SelectedButton: String {
     
-    case all = ""
+    case all = "all"
     case groceries = "Groceries"
     case work = "Work"
     case school = "School"

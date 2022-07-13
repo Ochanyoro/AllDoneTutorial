@@ -43,6 +43,17 @@ struct DashboardView: View {
                 
                 SearchBarView(serachText: $serachText)
                     .padding()
+                
+                TODOButtonStack(viewModel:viewModel)
+                    .padding(.horizontal)
+                    .padding(.bottom)
+                
+                
+                if viewModel.todosFiltered.isEmpty {
+                    AddTODOLogo()
+                        .padding(.top)
+                }
+                
             }
             
         }
